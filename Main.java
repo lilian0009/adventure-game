@@ -53,12 +53,13 @@ public class Main {
                     System.out.println("samuel sprints out of the operating room while you observe him with a smug expression");
                     System.out.println("do you want to (1) chase him down or (2) go to the cctv control room?");
                     int choiceFour = scanner.nextInt();
-                    
+
 
                     if (choiceFour == 1) {
                         System.out.println("You chase Samuel down the hallway, and catch up to him.");
                         System.out.println("Do you want to (1) drag him back to the operating room or (2) end it right there?");
                         int choiceSix = scanner.nextInt();
+                        
 
                         if (choiceSix == 1) {
                             System.out.println("You drag him back to the operating room and continue the dissection");
